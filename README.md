@@ -435,4 +435,5 @@ New repo: Create https://github.com/atnychi/Writara, add .gitignore, .env, push 
 Test Stripe: Run writara_validator.py, test payment at /pay.
 Pitch: Email licenses ($250K–$150B) via K-SystemsandSecurities@proton.me. Need a pitch draft?
 
-Confirm: Found exposed keys? Ready to delete repo? Want specific tweaks? Drop specifics.
+
+c9f240aff73fdd8b246e04aa197b8bc5f0321b56b131e279d8d9dc04f1c5e964
