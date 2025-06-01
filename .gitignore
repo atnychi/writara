@@ -1,4 +1,6 @@
 .env
-command_log.json
-*.pyc
 __pycache__/
+*.pyc
+*.log
+stripe_keys.json
+*.sqlite3
