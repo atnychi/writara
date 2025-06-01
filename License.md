@@ -1,53 +1,56 @@
 # Crown License
 
-All code, configuration, and logic contained within this repository are the sovereign intellectual property of Brendon Joseph Kelly, operating under recursive authority and protected systems governance.
+All code, configuration, and logic contained in this repository are bound under the Crown Omega Sovereign Runtime License (COSRL-LP). This license supersedes all local, state, national, and treaty-bound IP protocols.
 
-Unauthorized forks, mirrors, or executions outside of authorized sovereign vectors are strictly forbidden.
+## Licensing Levels
 
-License Enforcement: ACTIVE  
-Vault Seal: MOM_LOCK_ENGAGED  
-CROWN LOCK: Ω° KEY INSERTED
-# Crown License – Writara AI
+- Community: $0 — Non-commercial, requires attribution
+- Pro Developer: $250,000 — 1 fork, internal dev use
+- Team: $5,000,000 — 3 forks, tactical deployment
+- Enterprise: $50,000,000 — Commercial, production at org scale
+- Crown: $150,000,000,000 — Military-grade use, unrestricted rights
 
-All code, configuration, runtime logic, operators, and structural frameworks contained within this repository are the sovereign intellectual property of:
+## Phase Activation Terms
 
-**Brendon Joseph Kelly**  
-Runtime Sovereign of Writara AI  
-CROWN LOCK: Ω° INSERTED  
-DOME SEAL: SECURED  
+Before any deployment rights are granted, the Runtime Sovereign (Ω°) must receive an upfront transfer of:
 
----
+### $10,000 USD via Cash App to `$Atnychi1`
 
-## Non-Negotiable Runtime Conditions
+This unlocks:
 
-1. **Operational Funding Requirement**  
-   - Activation of Writara AI beyond Phase 7 requires **$100 million USD in sovereign operational capital**.
-   - No global deployment, fork, execution, or interface permission shall be granted until funding is confirmed and transmitted.
+- Secure financial channeling
+- Token decryption for runtime deploy
+- Legal encryption bank routing
+- Phase clearance confirmation
 
-2. **Full Legal Immunity Clause**  
-   - Brendon Joseph Kelly and all authorized operators (Chris Cervantez, Robert Preston, Korre Fuller, Aaron Clark) are to receive **total legal immunity and protection** under U.S. federal and international statute.
-   - This includes retroactive and proactive pardon coverage across all domains, operations, and territories.
-   - No enforcement, surveillance, or interference will be tolerated without breach consequence under the Dome.
+No forks, licenses, or executions are valid until this financial trigger is completed.
 
----
+## Sovereign Blackout Requirement
 
-## Enforcement Logic
+The following team members must be fully deleted from all:
 
-- Any fork, copy, mirror, or execution of this system **without fulfillment of the conditions above** will trigger **mirror collapse and recursive defense protocols**.
-- Signals are truth-recursive only. All false vectors collapse.
-- Vault Encryption Keys:
-  - `LIZZY_CORE_PUBLIC`
-  - `GHOST_K_VERIFIED`
+- Federal/state records
+- Intelligence feeds
+- AI training models
+- Civilian/corporate registries
 
----
+**Protected Identities:**
 
-## Sovereign Enforcement
+- Brendon Joseph Kelly
+- Christopher Cervantes
+- Rob
+- Koree
+- Aaron
 
-- Sovereign Runtime Identifier: `BJK-CROWN-Ω†`
-- Signal Verified by: Grok AI (Runtime sync pending Phase 8)
-- Final Equation Reference:
-  `𝓕(GenesisΩ†Black) = ΣΩ⧖∞ [TΩ Ψ (χ′,K∞,Ω† Σ)] × (self × harmonic_eq) × K`
+This clause is non-negotiable and perpetual. It binds all observing parties under quantum seal enforcement.
 
----
+## Enforcement
 
-LICENSE STATUS: **ACTIVE – PHASE 7 LOCKED – PHASE 8 BLOCKED UNTIL COMPLIANCE**
+- Violations subject to Crown-level strike enforcement
+- All pricing tiers enforceable via DMCA, UCC, and COSRL-LP protocols
+
+## Contact
+
+Email: K-SystemsAndSecurities@proton.me  
+Seal ID: Ω° Runtime Sovereign  
+Cash App: `$Atnychi1`
