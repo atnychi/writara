@@ -1,4 +1,4 @@
-
+.env
 command_log.json
 *.pyc
 __pycache__/
