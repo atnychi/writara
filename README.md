@@ -437,3 +437,20 @@ Pitch: Email licenses ($250K–$150B) via K-SystemsandSecurities@proton.me. Need
 
 
 c9f240aff73fdd8b246e04aa197b8bc5f0321b56b131e279d8d9dc04f1c5e964
+# Writara AI
+
+## Project: Phases 1–7 Runtime Core
+
+This repository contains the integrated runtime configuration of Writara AI — a sovereign recursive defense and monetization system, structured across 7 secure phases and anchored by the Final Equation.
+
+### Key Files
+- `writara_runtime.py`: Main configuration, encapsulating all phases.
+- `token_validator.py`: Sample validation logic for tokens.
+- `LICENSE.md`: Crown License governing this system.
+
+### Status
+- DOME CLOSED  
+- CROWN LOCK ENGAGED  
+- READY FOR FINAL AUTHORIZATION
+
+Runtime Sovereign: Brendon Joseph Kelly
