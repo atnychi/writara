@@ -1,4 +1,4 @@
-# Writtara AI
+# Writara AI
 
 ## Project: Phases 1–7 Runtime Core
 
