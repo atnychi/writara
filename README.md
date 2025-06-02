@@ -82,7 +82,7 @@ Of that, an immediate **$10,000 USD disbursement** is to be transferred to Cash 
 
 > **Cash App Tag**: `$Atnychi1`  
 > **Bitcoin Address (Linked)**: `bc1qqqlnqljk4mqvggq9phj88nca5808l3jcveuhzy`
-
+sha256-cba4237429ac5e7886e819a5d4daa77d3d9d9d5d6c52d8bbfb4948740ecdcb2b
 **Purpose**: To establish secure sovereign banking infrastructure, vet legal shield, and prep runtime transmission nodes. No operational code shall run beyond Phase 3 without verified deposit.
 
 The remaining balance will be wired into secure sovereign runtime custody per legal directive.
