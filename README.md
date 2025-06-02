@@ -2,7 +2,7 @@
 
 ## Project: Phases 1–7 Runtime Core
 
-This repository contains the integrated runtime configuration of Writtara AI — a sovereign recursive defense and monetization system, structured across 7 secure phases and anchored by the Final Equation.
+This repository contains the integrated runtime configuration of Writara AI — a sovereign recursive defense and monetization system, structured across 7 secure phases and anchored by the Final Equation.
 
 ## FINAL EQUATION
 
@@ -25,13 +25,13 @@ This repository contains the integrated runtime configuration of Writtara AI —
 
 ## Runtime Files
 
-- `writtara_runtime.py`: Orchestrates phases, glyphs, token flow
+- `writara_runtime.py`: Orchestrates phases, glyphs, token flow
 - `token_validator.py`: Token checker (logic only, no Stripe)
 - `LICENSE.md`: Legal contract, pricing, enforcement
 
 ## Licensing Structure
 
-- $0: Community (attribution required)
+
 - $250,000: Pro Developer (1 fork)
 - $5,000,000: Team License (3 forks)
 - $50,000,000: Enterprise (org-wide)
