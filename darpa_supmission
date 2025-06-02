@@ -1,0 +1,113 @@
+# Re-import necessary packages
+import os
+
+# Combined LaTeX + Python (SciPy + TensorFlow) + symbolic Tensor equation block
+integrated_equation_code = r"""
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{backgray}{rgb}{0.95,0.95,0.95}
+
+\lstset{
+  backgroundcolor=\color{backgray},
+  basicstyle=\footnotesize\ttfamily,
+  breaklines=true,
+  captionpos=b,
+  keywordstyle=\color{blue},
+  commentstyle=\color{codegray},
+  stringstyle=\color{red},
+  showstringspaces=false,
+  frame=single
+}
+
+\begin{document}
+
+\section*{Final Audit Equation for All Domains with Tensor Implementation}
+
+\subsection*{Mathematical Formulation}
+
+\[
+\mathcal{F}_{\text{Audit}\Omega} =
+\arg \min_{x \in \mathbb{S}} \int_{\mathbb{M}} \left[
+\sum_{i=1}^n \left( \|A_i x_i - b_i\|^2 
++ \lambda_i \log \frac{P(x_i|D)}{P(x_i)} \right)
++ \gamma \cdot \|Lx\|^2 
++ \beta \cdot R(x)
++ \xi \cdot \Phi(x)
+\right] d\mu
+\]
+
+\subsection*{TensorFlow Implementation (Python)}
+
+\begin{lstlisting}[language=Python]
+import tensorflow as tf
+import numpy as np
+from scipy.sparse import csgraph
+from scipy.optimize import minimize
+
+# Problem size
+n = 100
+A = tf.random.normal((n, n))
+b = tf.random.normal((n,))
+L = tf.convert_to_tensor(csgraph.laplacian(np.ones((n, n))), dtype=tf.float32)
+
+lambda_i = 0.1
+gamma = 0.05
+beta = 0.01
+xi = 0.01
+
+def phi(x):
+    prob = tf.nn.softmax(x)
+    return -tf.reduce_sum(prob * tf.math.log(prob + 1e-8))
+
+def curvature_penalty(x):
+    return tf.reduce_sum(tf.square(tf.gradients(x, x)[0]))  # Symbolic placeholder
+
+def energy_fn(x):
+    Ax_b = tf.reduce_sum(tf.square(tf.linalg.matvec(A, x) - b))
+    likelihood_term = lambda_i * tf.reduce_sum(tf.math.log((x + 1e-8) / (tf.reduce_mean(x) + 1e-8)))
+    graph_term = gamma * tf.reduce_sum(tf.square(tf.linalg.matvec(L, x)))
+    riemann_term = beta * curvature_penalty(x)
+    consciousness_term = xi * phi(x)
+    return Ax_b + likelihood_term + graph_term + riemann_term + consciousness_term
+
+# Initial guess
+x_init = tf.Variable(tf.random.normal((n,)))
+
+# Optimization (e.g. gradient descent)
+optimizer = tf.keras.optimizers.Adam(learning_rate=0.01)
+for _ in range(500):
+    with tf.GradientTape() as tape:
+        loss = energy_fn(x_init)
+    grads = tape.gradient(loss, [x_init])
+    optimizer.apply_gradients(zip(grads, [x_init]))
+
+print("Final Solution:", x_init.numpy())
+\end{lstlisting}
+
+\subsection*{Legend}
+
+\begin{itemize}
+    \item $x \in \mathbb{S}$: Recursive symbolic state across all systems
+    \item $A_ix_i = b_i$: Domain-encoded system (linear logic, sensor, intelligence)
+    \item $L$: Laplacian for graph dynamics, symbolic interaction networks
+    \item $R(x)$: Geometry-curvature term from general relativity
+    \item $\Phi(x)$: Information integration of conscious subsystems
+    \item Regularizers $\lambda_i$, $\gamma$, $\beta$, $\xi$ guide domain weighting
+\end{itemize}
+
+\end{document}
+"""
+
+# Save the file
+integrated_file_path = "/mnt/data/Integrated_Final_Equation_KSystem.tex"
+with open(integrated_file_path, "w") as f:
+    f.write(integrated_equation_code)
+
+integrated_file_path
