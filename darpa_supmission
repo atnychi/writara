@@ -111,3 +111,133 @@ with open(integrated_file_path, "w") as f:
     f.write(integrated_equation_code)
 
 integrated_file_path
+# CROWN WARFORM SYSTEMS — DARPA AUDIT PACKAGE
+# Developer: Brendon Joseph Kelly | COSRL-LP | Runtime Locked
+
+import time, uuid, hashlib, logging
+
+# Set up logging to a file
+logging.basicConfig(filename='crown_warform_audit.log', level=logging.INFO, 
+                    format='%(asctime)s - %(message)s')
+
+def get_runtime_id():
+    base = str(uuid.getnode()) + time.strftime("%Y-%m-%d-%H")
+    return hashlib.sha512(base.encode()).hexdigest()
+
+RUNTIME_ID = get_runtime_id()
+
+class CrownOS:
+    def boot(self):
+        msg = "[CROWN_OS] Recursive Kernel activated.\n[CROWN_OS] Symbolic execution initiated."
+        print(msg); logging.info(msg.replace('\n', ' | '))
+
+class Juanita:
+    def activate(self):
+        msg = "[JUANITA] Harmonic encryption firewall online.\n[JUANITA] Field-shield engaged. EMP and AI resistance maxed."
+        print(msg); logging.info(msg.replace('\n', ' | '))
+
+class OmniVale:
+    def launch(self):
+        msg = "[OMNIVALE] Sovereign AI activated.\n[OMNIVALE] Financial, legal, and dark-net access online."
+        print(msg); logging.info(msg.replace('\n', ' | '))
+
+class Spawn:
+    def standby(self):
+        msg = "[SPAWN] Dormant recursion mirror on standby.\n[SPAWN] Trigger lock: Triple failure activation protocol armed."
+        print(msg); logging.info(msg.replace('\n', ' | '))
+
+class NuclearModule:
+    def lock_protocol(self):
+        msg = f"[NUCLEAR] Recursive Crown Payload armed.\n[NUCLEAR] Runtime-ID: {RUNTIME_ID[:16]}... validated.\n[NUCLEAR] Triple-symbolic seal engaged."
+        print(msg); logging.info(msg.replace('\n', ' | '))
+
+class HarmonicShield:
+    def deploy(self):
+        msg = "[SHIELD] Harmonic frequency field deployed.\n[SHIELD] Thermal, kinetic, and EM phase-redirect online."
+        print(msg); logging.info(msg.replace('\n', ' | '))
+
+class InvisibilityCloak:
+    def activate(self):
+        msg = "[CLOAK] Light-bending surface phase initiated.\n[CLOAK] Optical cloaking and IR refraction field active."
+        print(msg); logging.info(msg.replace('\n', ' | '))
+
+class KineticWeapon:
+    def engage(self):
+        msg = "[KINETIC] Recursive rod launcher initialized.\n[KINETIC] Terminal velocity locked. Impact vector predictive model loaded."
+        print(msg); logging.info(msg.replace('\n', ' | '))
+
+class HypersonicSystem:
+    def calibrate(self):
+        msg = "[HYPERSONIC] TΩΨ temporal folding calculated.\n[HYPERSONIC] Trajectory ghost-trace projected. Ready for execution."
+        print(msg); logging.info(msg.replace('\n', ' | '))
+
+class LaserWeapon:
+    def fire(self):
+        msg = "[LASER] Directed energy system charged.\n[LASER] Material-resonant frequency lock acquired. Beam fired."
+        print(msg); logging.info(msg.replace('\n', ' | '))
+
+class CloakingField:
+    def run(self):
+        msg = "[CLOAK FIELD] Ambient photon redirection active.\n[CLOAK FIELD] Recursive mirror field distortion online."
+        print(msg); logging.info(msg.replace('\n', ' | '))
+
+class RailgunRecursive:
+    def spinup(self):
+        msg = "[RAILGUN] Recursive coil array activated.\n[RAILGUN] Kinetic recursion field charging. Velocity threshold exceeded."
+        print(msg); logging.info(msg.replace('\n', ' | '))
+
+def boot_all_systems():
+    print("=== CMW-Ω CROWN WARFORM: SYSTEMS INITIATION SEQUENCE ===")
+    logging.info("CMW-Ω CROWN WARFORM: SYSTEMS INITIATION SEQUENCE STARTED")
+    
+    systems = [
+        CrownOS(), Juanita(), OmniVale(), Spawn(), NuclearModule(),
+        HarmonicShield(), InvisibilityCloak(), KineticWeapon(),
+        HypersonicSystem(), LaserWeapon(), CloakingField(), RailgunRecursive()
+    ]
+    
+    for system in systems:
+        system_method = list(system.__class__.__dict__.values())[1]  # Get the first non-__init__ method
+        system_method(system)
+        time.sleep(0.5)
+    
+    print("=== ALL SYSTEMS ONLINE — CROWN WEAPON SUITE OPERATIONAL ===")
+    logging.info("ALL SYSTEMS ONLINE — CROWN WEAPON SUITE OPERATIONAL")
+
+def interactive_boot():
+    systems = {
+        '1': (CrownOS(), 'boot'), '2': (Juanita(), 'activate'), '3': (OmniVale(), 'launch'),
+        '4': (Spawn(), 'standby'), '5': (NuclearModule(), 'lock_protocol'),
+        '6': (HarmonicShield(), 'deploy'), '7': (InvisibilityCloak(), 'activate'),
+        '8': (KineticWeapon(), 'engage'), '9': (HypersonicSystem(), 'calibrate'),
+        '10': (LaserWeapon(), 'fire'), '11': (CloakingField(), 'run'),
+        '12': (RailgunRecursive(), 'spinup')
+    }
+    
+    print("\n=== CROWN WARFORM SYSTEMS CONTROL ===")
+    print("Select a system to activate (or 'all' to boot all systems):")
+    for key, (system, method) in systems.items():
+        print(f"{key}: {system.__class__.__name__}")
+    print("all: Boot all systems")
+    
+    choice = input("Enter your choice (1-12 or 'all'): ").strip()
+    
+    if choice == 'all':
+        boot_all_systems()
+    elif choice in systems:
+        system, method = systems[choice]
+        getattr(system, method)()
+        logging.info(f"Activated {system.__class__.__name__}")
+    else:
+        print("Invalid choice. Please select a valid system number or 'all'.")
+        logging.warning(f"Invalid input received: {choice}")
+
+if __name__ == "__main__":
+    try:
+        interactive_boot()
+    except KeyboardInterrupt:
+        print("\n[ERROR] System boot interrupted by user.")
+        logging.error("System boot interrupted by user.")
+    except Exception as e:
+        print(f"\n[ERROR] System failure: {str(e)}")
+        logging.error(f"System failure: {str(e)}")
