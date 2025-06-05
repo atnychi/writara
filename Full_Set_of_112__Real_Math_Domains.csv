@@ -1,0 +1,73 @@
+Field,Use Case,Equation/Model
+Algebra,General symbolic manipulation,ax + b = 0
+Calculus,"Rates of change, area under curves","dy/dx, ∫f(x)dx"
+Linear Algebra,Vector/matrix transformations,Ax = b
+Differential Equations,Dynamic systems modeling,dy/dt = ky
+Numerical Methods,Approximation solutions,"Euler, Newton-Raphson"
+Optimization,Max/min under constraints,min f(x) s.t. Ax ≤ b
+Control Theory,"Stability, feedback loops",PID: u = Kp e + Ki ∫e dt + Kd de/dt
+Probability Theory,"Uncertainty, distributions",P(A) = n(A)/n(S)
+Statistics,"Inference, regression","μ = Σx/n, σ² = Σ(x−μ)²/n"
+Fourier Analysis,Frequency decomposition,f(ω) = ∫f(t)e^(-iωt)dt
+Complex Analysis,Functions of complex variables,"f(z) = u(x,y) + iv(x,y)"
+Real Analysis,"Continuity, limits, convergence",ε-δ definitions
+Topology,Qualitative geometric properties,"Open sets, homeomorphism"
+Geometry,"Shapes, distances, angles","Euclid’s axioms, area = πr²"
+Tensor Calculus,"Multivariable curvature (GR, EM)",Tⁱⱼ = ∂Aⁱ/∂xʲ
+Graph Theory,"Networks, paths, flows","Euler path, adjacency matrix"
+Game Theory,Strategy under conflict,Nash equilibrium
+Information Theory,"Entropy, coding",H(X) = −Σp(x)logp(x)
+Cryptography,Secure communication,c = m^e mod n
+Bayesian Inference,Update beliefs with data,P(H|D) = P(D|H)P(H)/P(D)
+Markov Processes,Memoryless transitions,"P(sₙ|s₀,...,sₙ₋₁) = P(sₙ|sₙ₋₁)"
+Stochastic Calculus,Random differential systems,dX = μdt + σdW
+Measure Theory,Integration theory,Lebesgue integral
+Set Theory,Foundation of logic,"A ∪ B, A ∩ B"
+Proof Theory,Logic validity,Natural deduction rules
+Model Theory,Structures satisfying logic,M ⊨ φ
+Category Theory,Universal mappings,"Functors, objects, morphisms"
+Machine Learning Math,Prediction models,y = Wx + b
+Deep Learning,Layered nonlinear mappings,Backpropagation
+Reinforcement Learning,Reward-driven learning,"Q(s,a) = r + γmax Q(s',a')"
+Automata Theory,Language recognition,Finite state machines
+Computational Complexity,Problem class hierarchies,P vs NP
+Error Correction,Recover lost info,"Hamming, Reed-Solomon"
+Finite Fields,Modular structure math,"GF(2ⁿ), a⊕b"
+Symbolic Computation,Algebraic simplification,CAS systems like Mathematica
+Algorithmic Game Theory,Networked strategy models,Incentive compatibility
+Queuing Theory,Service + wait models,Little's Law: L = λW
+Computational Geometry,Shape algorithms,"Convex hull, triangulation"
+Lattice Theory,Order & structure logic,Partial ordering
+Quantum Information Math,Qubit manipulation,|ψ⟩ = α|0⟩ + β|1⟩
+Network Theory,Nodes and signal propagation,"PageRank, graph Laplacians"
+Decision Theory,Rational agent logic,"EU(a) = ΣP(s)U(a,s)"
+System Simulation,Agent or signal dynamics,State flow equations
+Dimensional Analysis,Scaling models,Buckingham π theorem
+Fluid Dynamics,Motion of liquids/gases,Navier–Stokes Eq
+Structural Mechanics,Load-bearing analysis,σ = F/A
+Thermodynamics,Heat/energy systems,dU = TdS − PdV
+Signal Filtering,Noise reduction,FIR/IIR filters
+Nonlinear Systems,Chaotic/feedback systems,dx/dt = f(x)
+Runge-Kutta Methods,Time-step solving ODEs,RK4 scheme
+Kalman Filters,State estimation,x̂ₖ = Ax̂ₖ₋₁ + Buₖ
+Convex Analysis,Shape optimization,Convex hulls
+Partial Differential Equations,"Heat, diffusion, waves",∂²u/∂t² = c²∂²u/∂x²
+Cryptoeconomics,Token incentive modeling,"Utility, gas fees, staking rates"
+Cyber-Physical Systems,Interfacing control+hardware,"u = f(y, ẋ)"
+AI Alignment Models,Constrained behavior enforcement,"value learning, corrigibility"
+Reinforcement Trading Systems,Live trade models,RL portfolio allocation
+Adaptive Control Systems,Self-tuning PID,θ̇ = γe(t)x(t)
+Machine Ethics,Formal ethical constraints,Rule-based agents
+Medical Imaging Math,"CT, MRI, PET math",Radon transforms
+Neurodynamics,Spike timing models,"HH model, dV/dt"
+Financial Derivatives Math,Option pricing,Black-Scholes PDE
+Epidemiological Modeling,Disease spread,SIR: dS/dt = -βSI
+Remote Sensing Math,Satellite image math,Spectral unmixing
+Fractal Geometry,Self-similar scaling,"Hausdorff dim, Mandelbrot"
+Chaos Theory,Sensitive dynamics,Lyapunov exponents
+Wavelet Theory,Local time-frequency,ψ(t) ∈ L²(ℝ)
+Multivariate Statistics,Correlated variables,"Cov(X,Y) = E[XY] − E[X]E[Y]"
+Elliptic Curve Cryptography,Secure comms,y² = x³ + ax + b
+Post-Quantum Cryptography,Quantum-safe ciphers,"Lattice (NTRU), Hash-based"
+Hash-Based Cryptography,Blockchain + auth,SHA256(x)
+SAT/SMT Solvers,Constraint resolution,Boolean/formula SAT

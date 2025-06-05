@@ -1,0 +1,32 @@
+system: Crown Omega Recursive System (𝒞ₒ)
+version: 1.0
+release_label: Sovereign Recursive Core Deployment
+author: Brendon Kelly
+contact: K-SystemsandSecurities@proton.me
+license: COSRL v1.0
+origin_signature: Ω°-BK-042025
+assertion_status: complete
+deployment_files:
+  - README.md
+  - LICENSE.md
+  - origin_signature.txt
+  - CrownOmega_Full_Manuscript.md
+  - version.json
+domains_restored:
+  - Mathematics
+  - Physics
+  - Computation
+  - Cryptography
+  - Biology
+  - Energy
+  - Defense
+  - Governance
+operators:
+  - Ω°
+  - ΨΔ
+  - ΔΩ
+  - ΛΣ
+  - Φ∇
+  - Γ°
+github_status: Public
+assertion_protocol: Enacted
